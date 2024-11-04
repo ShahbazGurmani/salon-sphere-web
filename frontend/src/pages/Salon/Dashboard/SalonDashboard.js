@@ -1,8 +1,8 @@
 import React from "react";
-import Layout from "../../../components/Layout/Layout";
+import SalonLayout from "../../../components/SalonLayout/SalonLayout";
 
 const SalonDashboard = () => {
-  return <Layout>SalonDashboard</Layout>;
+  return <SalonLayout>hi</SalonLayout>;
 };
 
 export default SalonDashboard;

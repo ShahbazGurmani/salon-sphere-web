@@ -14,6 +14,9 @@ import AdminRoute from "./components/Routes/AdminRoute";
 import AdminDashboard from "./pages/Admin/DashBoard/AdminDashboard";
 import SalonRoute from "./components/Routes/SalonRoute";
 import SalonDashboard from "./pages/Salon/Dashboard/SalonDashboard";
+
+import CreateSalon from "./pages/Salon/Dashboard/CreateSalon/CreateSalon";
+import ViewSalon from "./pages/Salon/Dashboard/ViewSalon/ViewSalon";
 function App() {
   return (
     <div>
@@ -37,6 +40,8 @@ function App() {
           {/* nested Route for Salon Owner portal */}
           <Route path="/dashboard/" element={<SalonRoute />}>
             <Route path="salon" element={<SalonDashboard />} />
+            <Route path="create-salon-profile" element={<CreateSalon />} />
+            <Route path="view-salon-profile/:id" element={<ViewSalon />} />
           </Route>
           {/* for auth */}
           <Route path="/login" element={<Login />} />

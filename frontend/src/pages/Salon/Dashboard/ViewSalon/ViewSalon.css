@@ -1,0 +1,61 @@
+.salon-profile-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .salon-name {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .cover-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .salon-description {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .location-info, .about-section, .stylists-section, .services-section {
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .location-info p, .about-section p, .stylist-card p, .service-card p {
+    margin: 5px 0;
+  }
+  
+  .gallery-section {
+    margin-bottom: 25px;
+  }
+  
+  .stylist-card, .service-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .stylist-card h3, .service-card h3 {
+    margin-top: 0;
+  }
+  
+  .time-slots h4 {
+    margin-bottom: 8px;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
